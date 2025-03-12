@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.cabecario {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-family: 'Georgia', serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #f397cb;
+    transition: color 0.3s ease;
+}
+
+header h1:hover {
+    color: #f397cb;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f397cb;
+    transform: scale(1.1);
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.produto {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 250px;
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.produto h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.produto p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.preco {
+    display: block;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #f397cb;
+    margin: 10px 0;
+}
+
+.comprar {
+    background-color: #f397cb;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.comprar:hover {
+    background-color: #e06aa3;
+}
